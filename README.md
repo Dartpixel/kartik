@@ -1,6 +1,4 @@
 # Attractive Advance Portfolio Website
-## _Chatting Bot Like Design (Whatsapp like interface)_
--[Visit Link](https://dartpixel.github.io/kartik/)
 
 ## Technologies Used
 
