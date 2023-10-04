@@ -13,7 +13,7 @@
 - Lightweighted
 - Social media links
 - Download resume.
-- Map support for address
+- Map support for address.
 
 <br><br>
 
