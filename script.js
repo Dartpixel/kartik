@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = "<div class='social'> <a href='mailto:skartiksharma2022@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/dartpixel'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/kartiksharma2004' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Kartik_Sharma_Final_Resume.pdf</label></div><a href='assets/Kartik_Sharma_Resume.pdf' download='Kartik_Sharma_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Kartik_Sharma_Final_Resume.pdf</label></div><a href='assets/Kartik_Sharma_Final_Resume.pdf' download='Kartik_Sharma_Final_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 function startFunction() {
     setLastSeen();
     waitAndResponce("intro");
