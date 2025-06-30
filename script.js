@@ -95,10 +95,10 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I believe that I am a software developer with particular expertise in :<br><span class='bold'>Python<br>C/C++<br>Java<br>CSS<br>HTML<br>Javascript<br>SQL</span><br><br>I also have experience with following frameworks :<span class='bold'><br>Reactjs<br>Django<br>Bootstrap</span><br><br>I have worked with <br><span class='bold'>Google Cloud Platform<br></span><br>Favourite IDE:<span class='bold'>VSCode</span></span>");
+            sendTextMessage("<span class='sk'>I believe that I am a software developer with particular expertise in :<br><span class='bold'>Python<br>C/C++<br>Java<br>CSS<br>HTML<br>Javascript<br>ReactJs<br>Full Stack Development<br></span><br><br>I also have experience with following frameworks :<span class='bold'><br>Reactjs<br>Django<br>Bootstrap</span><br><br>I have worked with <br><span class='bold'>Google Cloud Platform<br></span><br>Favourite IDE:<span class='bold'>VSCode</span></span>");
             break;
         case "education":
-            sendTextMessage("I am pusuing my Bachelors in Technology from Graphic Era University, Dehradun, Uttarakhand from 2021 - 2025 with majors in Computer Sciene and Engineering. <br><br>I have done my High Schooling from Greenwood Public School , Gurgaon with 94%(10) and 84.9%(12).");
+            sendTextMessage("I have completed my Bachelors in Technology from Graphic Era University, Dehradun, Uttarakhand from 2021 - 2025 with majors in Computer Sciene and Engineering with CGPA of 8.33. <br><br>I have done my High Schooling from Greenwood Public School , Gurgaon with 94%(10) and 84.4%(12).");
             break;
         case "address":
             sendTextMessage("I belong from Sector-9, Gurugram, Haryana.");
