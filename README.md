@@ -1,6 +1,6 @@
 # Attractive Advance Portfolio Website
-## _Chatting Bot Like Design (Whatsapp like interface)_
--[Visit Link](https://shikha-code36.github.io/shikhapandey.github.io/)
+## _Chatting Bot Like Design (Whatsapp like interface)
+-[Visit Link](https://dartpixel.github.io/kartik)
 
 ## Technologies Used
 
@@ -14,8 +14,7 @@
 - Pleasant sounds
 - Lightweighted
 - Social media links
-- Download resume.
-- Map support for address
+- Download resume
 
 <br><br>
 
