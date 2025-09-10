@@ -2,7 +2,7 @@ var audio = new Audio('assets/sentmessage.mp3');
 
 var contactString = "<div class='social'> <a href='mailto:skartiksharma2022@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/dartpixel'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a href='https://www.linkedin.com/in/kartiksharma2004' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
 
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Kartik_Sharma_Final_Resume.pdf</label></div><a href='assets/Kartik_Sharma_Final_Resume.pdf' download='Kartik_Sharma_Final_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Kartik_Sharma_Resume.pdf</label></div><a href='assets/Kartik_Sharma_Resume.pdf' download='Kartik_Sharma_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 
 function startFunction() {
     setLastSeen();
@@ -91,7 +91,7 @@ function waitAndResponce(inputText) {
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'profiles'</span> - to get my coding profiles and other handles<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         case "profiles":
-            sendTextMessage("You can find me on : <br> <a class='alink' target='_blank' href='https://www.leetcode.com/knightmaster'><span class='bold'>Leetcode</a> <br> <a class='alink' target='_blank' href='https://www.codechef.com/users/itwasme'><span class='bold'>Codechef</a> <br> <a class='alink' target='_blank' href='https://www.hackerrank.com/skartiksharma201'><span class='bold'>HackerRank</a>  <br> <a class='alink' target='_blank' href='https://www.github.com/dartpixel'><span class='bold'>Github</a> <br> <a class='alink' target='_blank' href='https://linkedin.com/in/kartiksharma2004'><span class='bold'>Linkedin</a> ");
+            sendTextMessage("You can find me on : <br> <a class='alink' target='_blank' href='https://www.leetcode.com/knightmaster'><span class='bold'>Leetcode</a> <br> <a class='alink' target='_blank' href='https://www.codechef.com/users/itwasme'><span class='bold'>Codechef</a> <br> <a class='alink' target='_blank' href='https://www.github.com/dartpixel'><span class='bold'>Github</a> <br> <a class='alink' target='_blank' href='https://linkedin.com/in/kartiksharma2004'><span class='bold'>Linkedin</a> ");
             break;
         case "resume":
             sendTextMessage(resumeString);
